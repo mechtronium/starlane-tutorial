@@ -45,7 +45,7 @@ kubectl create -f https://raw.githubusercontent.com/mechtronium/starlane-tutoria
 From your terminal run:
 
 ```bash
-kubectl create -f https://raw.githubusercontent.com/mechtronium/starlane-tutorial/main/lesson-0/starlane.yml
+kubectl create -f https://raw.githubusercontent.com/mechtronium/starlane-tutorial/main/lesson-0/starlane.yaml
 ```
 
 
