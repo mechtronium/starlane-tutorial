@@ -22,7 +22,7 @@ needed to support Starlane.
 
 Please open Docker Desktop and enable Kubernetes mode
 
-![enable kubernetes on Docker Desktop](https://github.com/mechtronium/starlane-tutorial/lesson-0/main/enable-kubernetes-on-docker.png?raw=true)
+![enable kubernetes on Docker Desktop](https://raw.githubusercontent.com/mechtronium/starlane-tutorial/main/lesson-0/enable-kubernetes-on-docker.png?raw=true)
 
 
 
