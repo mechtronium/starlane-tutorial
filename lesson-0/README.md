@@ -39,6 +39,13 @@ From your terminal run:
 ```bash
 kubectl create -f https://raw.githubusercontent.com/mechtronium/starlane-tutorial/main/lesson-0/starlane-operator.yml
 ```
+Check to see that your operator has a status of *Running* before moving on:
+
+```bash
+kubectl get pods -n starlane-operator-system
+NAME                                                    READY   STATUS    RESTARTS   AGE
+starlane-operator-controller-manager-597cff6f6b-k5stk   2/2     Running   0          22s
+```
 
 ## INSTALLING STARLANE
 
@@ -48,6 +55,16 @@ From your terminal run:
 kubectl create -f https://raw.githubusercontent.com/mechtronium/starlane-tutorial/main/lesson-0/starlane.yaml
 ```
 
+Check to see that all four pods have a status of *Running* before moving on:
+
+```bash
+kubectl get pods
+NAME                                             READY   STATUS    RESTARTS   AGE
+my-starlane-756d8d58cb-mjhbt                     1/1     Running   0          14s
+my-starlane-keycloak-64595d598b-q5nn5            1/1     Running   0          14s
+my-starlane-postgres-59c7f45454-dqhjd            1/1     Running   0          15s
+my-starlane-postgres4keycloak-78dc55b796-jvw9q   1/1     Running   0          14s
+```
 
 
 
