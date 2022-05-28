@@ -25,6 +25,7 @@ To enable Kubernetes on Docker Desktop:
 * select Preferences (the gear icon near the upper right corner)
 * select Kubernetes tab (on the left)
 * make sure Enable Kubernetes is *checked*
+* it may take several minutes for Kubernetes to launch... make sure kubernetes is indicated to be 'Ready' before proceding
 
 Please open Docker Desktop and enable Kubernetes mode
 
@@ -32,3 +33,9 @@ Please open Docker Desktop and enable Kubernetes mode
 
 
 ## INSTALLING THE OPERATOR
+
+From your terminal run:
+
+```bash
+kubectl create -f https://raw.githubusercontent.com/mechtronium/starlane-tutorial/main/lesson-0/starlane-operator.yml
+```
